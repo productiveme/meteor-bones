@@ -3,6 +3,14 @@ meteor-bones
 
 Barebones scaffolding for meteor 1.0 apps
 
+Installation
+============
+
+	git clone https://github.com/productiveme/meteor-bones.git project-name
+	cd project-name
+	meteor create app
+	mv app/.meteor ./
+	rm -rf app
 
 Dependencies
 ============
