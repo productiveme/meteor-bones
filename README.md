@@ -1,7 +1,7 @@
 meteor-bones
 ============
 
-Barebones scaffolding for meteor 1.0 apps
+Barebones scaffolding for a Meteor 1.0 app. Includes preferred folder structure, customizable twitter bootstrap 3, font-awesome and basic packages like iron-router, coffeescript and less.
 
 Installation
 ============
@@ -67,24 +67,24 @@ Scaffolding
 ```
 ├── client
 │   ├── compatibility		// 3rd party client side libraries that require global scope to work
-│   ├── css							// importing and combining less files
-│   │   ├── components	// component less import files
-│   │   └── sites				// theme less import files
-│   ├── lib							// 3rd party client side libraries that can be encapsulated
-│   │   ├── helpers			// client side generic helpers
-│   │   └── meteor			// client router and client startup code
-│   └── views						// templates and controlling code
-├── lib									// isomorphic 3rd party libraries (client and server)
-│   ├── helpers					// isomorphic generic helpers (client and server)
-│   └── models					// isomorphic models to centralize database code (client and server)
-├── public							// public assets
+│   ├── css			// importing and combining less files
+│   │   ├── components		// component less import files
+│   │   └── sites		// theme less import files
+│   ├── lib			// 3rd party client side libraries that can be encapsulated
+│   │   ├── helpers		// client side generic helpers
+│   │   └── meteor		// client router and client startup code
+│   └── views			// templates and controlling code
+├── lib				// isomorphic 3rd party libraries (client and server)
+│   ├── helpers			// isomorphic generic helpers (client and server)
+│   └── models			// isomorphic models to centralize database code (client and server)
+├── public			// public assets
 │   ├── fonts
 │   └── img
 └── server
-    ├── api							// if an api is required
-    ├── config					// server side configuration
-    ├── lib							// server side 3rd party libraries
-    │   └── helpers			// server side generic helpers
-    ├── models					// model rules
-    └── publish					// publish methods
+    ├── api			// if an api is required
+    ├── config			// server side configuration
+    ├── lib			// server side 3rd party libraries
+    │   └── helpers		// server side generic helpers
+    ├── models			// model rules
+    └── publish			// publish methods
 ```
