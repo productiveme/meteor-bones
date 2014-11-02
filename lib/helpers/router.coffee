@@ -1,2 +1,2 @@
-Router.route "/", ->
+Router.route "/", -> 
 	@render "helloworld"
