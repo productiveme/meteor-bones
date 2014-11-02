@@ -29,18 +29,6 @@ Dependencies
 
     curl https://install.meteor.com | sh
 
-[Coffeescript](http://coffeescript.org/) - CoffeeScript is a little language that compiles into JavaScript.
-
-    sudo npm install -g coffee-script
-
-[Less](http://lesscss.org) - The dynamic stylesheet language. LESS extends CSS with dynamic behavior such as variables, mixins, operations and functions.
-
-    sudo npm install -g less
-
-[Docco](http://jashkenas.github.io/docco/) is a quick-and-dirty documentation generator, written in [Literate CoffeeScript](http://coffeescript.org/#literate)
-
-    sudo npm install -g docco
-
 Various Meteor packages
     
     meteor list

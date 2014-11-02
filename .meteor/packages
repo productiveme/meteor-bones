@@ -8,6 +8,4 @@ coffeescript
 less
 email
 iron:router
-mrt:moment
 meteorhacks:fast-render
-
