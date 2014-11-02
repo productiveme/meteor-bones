@@ -1,7 +1,7 @@
 meteor-bones
 ============
 
-Barebones scaffolding for meteor 1.0 apps
+Barebones scaffolding for a Meteor 1.0 app. Includes preferred folder structure, customizable twitter bootstrap 3, font-awesome and basic packages like iron-router, coffeescript and less.
 
 Installation
 ============
