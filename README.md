@@ -3,15 +3,6 @@ meteor-bones
 
 Barebones scaffolding for a Meteor 1.0 app. Includes preferred folder structure, customizable twitter bootstrap 3, font-awesome and basic packages like iron-router, coffeescript and less.
 
-Installation
-============
-
-    git clone https://github.com/productiveme/meteor-bones.git project-name
-    cd project-name
-    meteor create app
-    mv app/.meteor ./
-    rm -rf app
-
 Dependencies
 ============
 
@@ -32,6 +23,13 @@ Dependencies
 Various Meteor packages
     
     meteor list
+
+Installation
+============
+
+    git clone https://github.com/productiveme/meteor-bones.git project-name
+    cd project-name
+    meteor
 
 Documentation
 =============
